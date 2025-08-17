@@ -9,6 +9,7 @@ using ProyectoCrud.Models;
 
 namespace ProyectoCrud.DAL.Repositorio
 {
+    //dal
     public class ContactoRepository : IGenericRepository<Contacto>
     {
         private readonly DbPruebasContext _dbcontext;
